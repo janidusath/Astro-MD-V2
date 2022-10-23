@@ -8,7 +8,7 @@
   
 "ALIVE_MSG" :{
     "description" : "alive message",
-    "required" : true,
+    "required" : false,
   "value" : "Alive now"
     },
  "SESSION_ID": {
@@ -28,7 +28,7 @@
 },  
 "ALIVE_LOGO" :{
     "description" : "alive logo",
-    "required" : true,
+    "required" : false,
   "value" : "https://img.phonandroid.com/2019/05/whatsapp-publicit%C3%A9s-2020.jpg"
 },
 "FOOTER" :{
@@ -76,6 +76,45 @@
     "required" : true,
   "value" : "*📤Uploading your file...*"
 },
+
+                "TIKTOK VIDEO_UP" :{
+
+    "description" : "video up txt",
+
+    "required" : true,
+
+  "value" : "*📤 ඔබේ වීඩියෝව Upload කරමින් පවතී...*"
+                  
+},
+                "TIKTOK VIDEO_DOWN" :{
+
+    "description" : "video down txt",
+
+    "required" : true,
+
+  "value" : "*📤 ඔබේ වීඩියෝව Upload කරමින් පවතී...*"
+},
+
+                "INSTRAGRAM VIDEO_UP" :{
+
+    "description" : "video up txt",
+
+    "required" : true,
+
+  "value" : "*📤 ඔබේ වීඩියෝව Upload කරමින් පවතී...*"
+ 
+
+},
+
+                "ISTRAGRAM VIDEO_DOWN" :{
+
+    "description" : "video down txt",
+
+    "required" : true,
+
+  "value" : "*📤 ඔබේ වීඩියෝව Upload කරමින් පවතී...*"
+
+},
                         "CAPTION" :{
     "description" : " caption",
     "required" : true,
@@ -84,12 +123,12 @@
                         "BUTTON" :{
     "description" : "alive button txt",
     "required" : true,
-  "value" : "Youtube"
+  "value" : "WHATSAPP GROUP"
 },
                             "BUTTONURL" :{
     "description" : "alive button url",
     "required" : true,
-  "value" : "youtube.com/hjwn7skv"
+  "value" : "https://chat.whatsapp.com/B9NP0gBUU1pA4e6a4vHpuq"
 }, 
                            "onlygroup" :{
     "description" : "onlygroup",
